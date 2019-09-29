@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@drawable/tab_bar_background</item>
+
+        <item name="background">@android:color/holo_blue_dark</item>
+
+
+
+
+    </style>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabStyle">@style/MyActionBar</item>
+        <item name="actionBarDivider">@null</item>
+
+
+    </style>
+
+
+</resources>
